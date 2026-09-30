@@ -141,13 +141,21 @@
 
 .project-note .project-image-cream p {
   position: absolute;
-  top: 64px;
+  top: 50%;
   left: 20px;
-  right: 48px;
+  right: 20px;
   margin: 0;
-  font-size: 16px;
-  line-height: 1.4;
+  max-width: 290px;
+  transform: translateY(-50%);
+  color: var(--paper);
+  font-size: 18px;
+  line-height: 1.25;
+  letter-spacing: 0;
   font-weight: 500;
+}
+
+.project-note .project-image-cream {
+  color: var(--paper);
 }
 
 @media (max-width: 700px) {
